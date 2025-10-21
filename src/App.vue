@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import { Button } from '@/components/ui/button'
+import Dashboard from './pages/dashboard/index.vue'
 </script>
 
 <template>
-  <div>
-    <Button>Click me</Button>
-  </div>
+	<Dashboard />
 </template>
